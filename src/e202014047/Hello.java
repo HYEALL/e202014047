@@ -3,12 +3,11 @@ package e202014047;
 public class Hello {
     String msg = "hello";
 
-   public void say() {
-        say(this.msg);
+    public Hello(String msg) {
+        this.msg = msg;
     }
 
-    public void say(String msg) {
+    public void say() {
         System.out.println(msg);
     }
 }
-
